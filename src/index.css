@@ -1,10 +1,11 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap');
 @import "tailwindcss";
-@import "tw-animate-css";
-@import "shadcn/tailwind.css";
-@import "@fontsource-variable/inter";
+
 
 @custom-variant dark (&:is(.dark *));
 :root {
+
  
   --background: oklch(1 0 0);
 
@@ -114,6 +115,9 @@
   --color-faq-light: hsl(275, 100%, 97%);
   --color-faq-mid: hsl(292, 16%, 49%);
   --color-faq-dark: hsl(292, 42%, 14%);
+  --color-faq-button: hsl(269, 63%, 65%);
+
+
 }
 
 .dark {
@@ -148,6 +152,10 @@
   --sidebar-accent-foreground: oklch(0.985 0 0);
   --sidebar-border: oklch(1 0 0 / 10%);
   --sidebar-ring: oklch(0.556 0 0);
+}
+body {
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
 }
 
 @layer base {

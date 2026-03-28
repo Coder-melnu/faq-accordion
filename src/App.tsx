@@ -1,7 +1,9 @@
 import "./App.css";
 
+import FAQPage from "@/components/faq-page";
+
 function App() {
-  return <>Hello, This is FAQ Page!</>;
+  return <FAQPage />;
 }
 
 export default App;
